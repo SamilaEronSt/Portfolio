@@ -380,7 +380,7 @@ footer{
 /* /menu HAMBURGUER*/
 
 /*media queries*/
-@media (max-width: 0px) {/*TEST*/
+@media (max-width: 80px) {/*TEST*/
     .menu-hamburguer {
         display: block;
     }
@@ -403,12 +403,12 @@ footer{
     .home, .about{
         flex-direction: column;
         gap: 1.2rem;
-        max-width: 79%;/*TEST*/
+        max-width: 7%0;/*TEST*/
     }
 
     .home-img, .about-img{
-        width: 79%;
-        max-width: 79%;
+        width: 70%;
+        max-width: 7%0;
     }
 
     .home-content, .about-content{
