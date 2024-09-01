@@ -439,8 +439,8 @@ footer{
 /*tamanho celular*/
 @media (min-width: 576px) {
     .home-img, .about-img{
-        width: 65%;
-        max-width: 65%;
+        width: 80%;
+        max-width: 80%;
     }
 
     .services-box{
