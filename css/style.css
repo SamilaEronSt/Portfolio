@@ -379,8 +379,8 @@ footer{
 }
 /* /menu HAMBURGUER*/
 
-/*media queries*/
-@media (min-width: 0px) {
+/*media queries*/ /*medida antiga (0px)*/
+@media (min-width: 120px) {
     .menu-hamburguer {
         display: block;
     }
