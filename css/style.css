@@ -379,19 +379,15 @@ footer{
 }
 /* /menu HAMBURGUER*/
 
-<<<<<<< Updated upstream
-/*media queries*/ /*medida antiga (0px)*/
-@media (min-width: 100px) {
-=======
 /*media queries*/
-@media (min-width: 120px) {
->>>>>>> Stashed changes
+@media (max-width: 0px) {/*TEST*/
     .menu-hamburguer {
         display: block;
     }
 
     .nav {
         display: none;
+        max-width: 80%; /*TEST*/
     }
 
     .nav-responsive a{
@@ -407,11 +403,12 @@ footer{
     .home, .about{
         flex-direction: column;
         gap: 1.2rem;
+        max-width: 79%;/*TEST*/
     }
 
     .home-img, .about-img{
-        width: 80%;
-        max-width: 80%;
+        width: 79%;
+        max-width: 79%;
     }
 
     .home-content, .about-content{
