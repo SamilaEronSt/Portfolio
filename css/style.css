@@ -379,8 +379,13 @@ footer{
 }
 /* /menu HAMBURGUER*/
 
+<<<<<<< Updated upstream
 /*media queries*/ /*medida antiga (0px)*/
 @media (min-width: 100px) {
+=======
+/*media queries*/
+@media (min-width: 120px) {
+>>>>>>> Stashed changes
     .menu-hamburguer {
         display: block;
     }
