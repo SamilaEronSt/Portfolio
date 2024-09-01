@@ -403,7 +403,7 @@ footer{
     .home, .about{
         flex-direction: column;
         gap: 1.2rem;
-        max-width: 7%0;/*TEST*/
+        max-width: 70%;/*TEST*/
     }
 
     .home-img, .about-img{
